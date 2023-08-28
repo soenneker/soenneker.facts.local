@@ -39,7 +39,7 @@
 
         <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.1.1" PrivateAssets="All" />
 
-        <PackageReference Include="Soenneker.Utils.Environment" Version="1.0.95" />
+        <PackageReference Include="Soenneker.Utils.Environment" Version="1.0.97" />
 
         <PackageReference Include="xunit.core" Version="2.5.0" />
     </ItemGroup>
