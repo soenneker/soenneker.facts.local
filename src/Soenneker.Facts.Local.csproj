@@ -41,6 +41,6 @@
 
         <PackageReference Include="Soenneker.Utils.Environment" Version="2.1.25" />
 
-        <PackageReference Include="xunit.core" Version="2.6.1" />
+        <PackageReference Include="xunit.core" Version="2.6.2" />
     </ItemGroup>
 </Project>
