@@ -8,5 +8,5 @@
 ## Installation
 
 ```
-Install-Package Soenneker.Facts.Local
+dotnet add package Soenneker.Facts.Local
 ```
