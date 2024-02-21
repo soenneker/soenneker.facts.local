@@ -39,7 +39,7 @@
 
         
 
-        <PackageReference Include="Soenneker.Utils.Environment" Version="2.1.221" />
+        <PackageReference Include="Soenneker.Utils.Environment" Version="2.1.222" />
 
         <PackageReference Include="xunit.core" Version="2.7.0" />
     </ItemGroup>
