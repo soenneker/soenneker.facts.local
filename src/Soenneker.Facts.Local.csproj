@@ -13,7 +13,7 @@
         <Version Condition="'$(BUILD_VERSION)' != ''">$(BUILD_VERSION)</Version>
         <AssemblyName>Soenneker.Facts.Local</AssemblyName>
         <PackageId>Soenneker.Facts.Local</PackageId>
-        <PackageTags>xunit fact pipeline c# .net dotnet</PackageTags>
+        <PackageTags>xunit fact pipeline c# .net dotnet localfact</PackageTags>
         <Copyright>Copyright © 2023-2024 Jake Soenneker</Copyright>
         <Authors>Jake Soenneker</Authors>
         <Company>https://soenneker.com</Company>
