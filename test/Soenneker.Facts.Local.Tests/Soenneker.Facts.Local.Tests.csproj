@@ -19,7 +19,7 @@
     </ItemGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\src\Soenneker.Facts.Local.csproj" />
+        <ProjectReference Include="..\..\src\Soenneker.Facts.Local.csproj" />
     </ItemGroup>
 
 </Project>
