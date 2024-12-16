@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFrameworks>net9.0</TargetFrameworks>
+        <TargetFramework>net9.0</TargetFramework>
         <Nullable>enable</Nullable>
         <Platforms>AnyCPU</Platforms>
         <NoWarn>$(NoWarn);1591</NoWarn>
@@ -36,11 +36,7 @@
         <None Include="..\README.md" Pack="true" PackagePath="\" />
         <None Include="..\LICENSE" Pack="true" PackagePath="\" />
         <None Include="..\icon.png" Pack="true" PackagePath="\" />
-
-        
-
         <PackageReference Include="Soenneker.Utils.Environment" Version="3.0.347" />
-
-        <PackageReference Include="xunit.core" Version="2.9.2" />
+        <PackageReference Include="xunit.v3.core" Version="1.0.0" />
     </ItemGroup>
 </Project>

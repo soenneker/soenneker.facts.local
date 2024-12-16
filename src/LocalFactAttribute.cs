@@ -13,17 +13,14 @@ public class LocalFactAttribute : FactAttribute
 
     public string? Reason { get; set; }
 
-    public override string? Skip
+    public LocalFactAttribute()
     {
-        get
-        {
-            if (!EnvironmentUtil.IsPipeline)
-                return null;
+        if (!EnvironmentUtil.IsPipeline)
+            return;
 
-            if (Reason != null)
-                return $"{_defaultSkip}:{Reason}";
-
-            return _defaultSkip;
-        }
+        if (Reason != null)
+            Skip = $"{_defaultSkip}:{Reason}";
+        else
+            Skip = _defaultSkip;
     }
 }
