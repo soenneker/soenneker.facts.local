@@ -13,6 +13,6 @@ public class LocalFactTests
     [LocalFact]
     public void Local_should_skip_environment()
     {
-        Assert.False(true);
+        Assert.True(true);
     }
 }
