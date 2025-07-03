@@ -7,7 +7,7 @@ namespace Soenneker.Facts.Local;
 /// An xUnit Fact attribute derivation that when used to decorate a method it skips the test if used within a pipeline <para/>
 /// Replace with [Fact] if you wish to run the test in all environments
 /// </summary>
-public class LocalFactAttribute : FactAttribute
+public sealed class LocalFactAttribute : FactAttribute
 {
     private const string _defaultSkip = "LocalFact";
 
