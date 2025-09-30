@@ -36,7 +36,7 @@
         <None Include="..\README.md" Pack="true" PackagePath="\" />
         <None Include="..\LICENSE" Pack="true" PackagePath="\" />
         <None Include="..\icon.png" Pack="true" PackagePath="\" />
-        <PackageReference Include="Soenneker.Utils.Environment" Version="3.0.522" />
+        <PackageReference Include="Soenneker.Utils.Environment" Version="3.0.523" />
         <PackageReference Include="xunit.v3.extensibility.core" Version="3.1.0" />
     </ItemGroup>
 </Project>
