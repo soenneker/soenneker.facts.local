@@ -11,16 +11,13 @@ public sealed class LocalFactAttribute : FactAttribute
 {
     private const string _defaultSkip = "LocalFact";
 
-    public string? Reason { get; set; }
-
-    public LocalFactAttribute()
+    public LocalFactAttribute(string? reason = null)
     {
         if (!EnvironmentUtil.IsPipeline)
             return;
 
-        if (Reason != null)
-            Skip = $"{_defaultSkip}:{Reason}";
-        else
-            Skip = _defaultSkip;
+        Skip = string.IsNullOrEmpty(reason)
+            ? _defaultSkip
+            : string.Concat(_defaultSkip, ":", reason);
     }
 }
