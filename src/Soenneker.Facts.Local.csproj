@@ -42,7 +42,7 @@
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="Soenneker.Utils.Environment" Version="4.0.590" />
+        <PackageReference Include="Soenneker.Utils.Environment" Version="4.0.591" />
         <PackageReference Include="xunit.v3.extensibility.core" Version="3.2.2" />
     </ItemGroup>
 </Project>
